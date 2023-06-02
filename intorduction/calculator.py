@@ -20,4 +20,4 @@ print("Enter a number 2")
 
 num2 = int(input())
 
-print ("The sum is ",num1 / num2)
+print ("The sum is ",num1 // num2)
