@@ -57,14 +57,5 @@ else:
     print("francis is Absent and james is present  ")
 
     """
-print("enter a number ")
 
-num = int(input())
-
-if(num % 4 == 0  ):
-
-    print("number is divisible by 4")
-
-else:
-    print("number is not divisible by 4")
 
