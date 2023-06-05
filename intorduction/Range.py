@@ -56,7 +56,9 @@ for num in range (4):
 number = int (input( "enter a number")) 
 
 for i in range (1,11 ):
-    print(number , "x", i,"=",number *i) """
+ 
+===============================================
+    # print tables from 1 -20 
 
 
 for i in range (1,21):
@@ -64,9 +66,14 @@ for i in range (1,21):
     for j in range (1,11):
         print(i , "x", j, "=", i * j )
         
+==============================================
 
+number = int (input("enetr a number "))
 
+for i in range (1,11): 
+    print(number , "x" , i , "=",number* i)
 
+=======================================================   """
 
 
 
