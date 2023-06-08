@@ -160,6 +160,8 @@ print(type(ABC))  # to prints its type of data
 
  """
 
+ ## slices similer to range 
+"""
 #A=["name", 2 , 2.2, 33, "francis ", 5,67]
 
 #print(A[0:7:1])
@@ -167,6 +169,19 @@ print(type(ABC))  # to prints its type of data
 for i in range (0,7,1):
 
   print (i)
+"""
+
+#=====================================
 
 
+# cnt = 1
+# A = ["a", "b ", "c"]
+# for i in  A:
+#   print( cnt, ".", "hello", i)
+#   cnt += 1
 
+  
+ ##======================================
+# A = [1,2,3,4,5,6,7,8,9,10]
+# for i in range(0,len(A)):
+#   print(i +1, ".", "hello", A [i] )
