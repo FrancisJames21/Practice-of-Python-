@@ -147,3 +147,26 @@ name()
 
 print (sum)
  """
+
+ # example of list 
+"""
+ABC = ["a",2.4343,"c",83943]
+
+print (ABC)  # it will print the whole list
+print (len(ABC)) # it will print the length of list (by count th index number )
+print(ABC[3]) # its print the index number 
+
+print(type(ABC))  # to prints its type of data
+
+ """
+
+#A=["name", 2 , 2.2, 33, "francis ", 5,67]
+
+#print(A[0:7:1])
+
+for i in range (0,7,1):
+
+  print (i)
+
+
+
