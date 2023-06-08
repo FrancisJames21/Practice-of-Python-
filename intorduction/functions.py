@@ -118,17 +118,32 @@ true()   """
   #Write a program that prompts the user to input a positive integer. It should then print the 
  # multiplication table of that number. 
 
-num = int (input("Enter a number "))
+# num = int (input("Enter a number "))
 
-if (num <= 0):
-  print ("its not a valid number Please enter a valid number ")
+# if (num <= 0):
+#   print ("its not a valid number Please enter a valid number ")
 
-else:
-  print("table of the number ", num)
+# else:
+#   print("table of the number ", num)
 
-  for i in range (1,11):
-    print(num , "x", i , "=", num *i)
+#   for i in range (1,11):
+#     print(num , "x", i , "=", num *i)
+
+#===================================================================
+
+## this is called scoping the outer verible called as a globle scoping and 
+#the in inner variable called local scope
+
+"""sum = 6
+
+def name ():
+
+  sum =  7
+
+  print(sum )
 
 
+name()
 
- 
+print (sum)
+ """

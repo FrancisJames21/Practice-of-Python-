@@ -1,0 +1,8 @@
+
+i =int  (input("enter a number from 1 -6"))
+
+j = int (input("enter a another number from 1-6"))
+
+arr = [8,9,12,6,21,23]
+
+print()
