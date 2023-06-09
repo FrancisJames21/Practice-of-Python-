@@ -49,3 +49,30 @@ while (count <= 10):
 print ( num) """
 
 #===========================================================
+
+"""
+
+sum = 9
+
+def name():
+
+    sum = 11
+
+    for i in range (10):
+
+        sum = 0
+        
+    print (sum)
+
+name()
+
+print (sum)
+"""
+
+name = [ "francis ", "james ", "renu ", "shiny", "franc ", "jame ", "rani ", "shine"]
+count =1
+for i in range (0,len(name)):
+    
+    
+    print( count,"hello", name[i])
+    count += 1 

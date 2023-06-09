@@ -185,3 +185,14 @@ for i in range (0,7,1):
 # A = [1,2,3,4,5,6,7,8,9,10]
 # for i in range(0,len(A)):
 #   print(i +1, ".", "hello", A [i] )
+
+
+num = int (input("enter a positive number"))
+if (num <0):
+  print("number is negative")
+
+else :
+  print("the factorial of a number  ", num)
+  
+  for i in range (0,num+1):
+    print(num)
