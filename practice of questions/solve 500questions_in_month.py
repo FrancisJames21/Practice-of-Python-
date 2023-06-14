@@ -36,7 +36,7 @@ print(res)"""
 
 ##==========================================================================
 
-# convert a string into a list or array
+#3 convert a string into a list or array
 
 """words ="hey boy are you okay"
 
@@ -59,5 +59,18 @@ res.append(word) # append is ude to add a word in the end of the list
     
 print(res)"""
 
+#============================================================================
+## 3
+
+"""
+num1 = int(input("Enter a number "))
+
+num2 = int(input("Enter a another number "))
+
+sum = num1 + num2
+
+print(sum)
+"""
 #==============================================================================
 
+## 

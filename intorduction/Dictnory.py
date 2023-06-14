@@ -25,7 +25,8 @@ print(len(name))# it shows us the length of dict.."""
     print("keys are",key,"=","values are",name[key])# we can use it in for loop also"""
 
 
-# in - key is alos use in dict 
+# in - key is also use in dict 
+#=========================================== to get the maximum number 
 
 """A = [ 1,2,3,4,45,5,56,667,7]
 
@@ -38,8 +39,10 @@ for i in range (1,len(A)):
         max = A[i]
 
 print(max)
-"""
 
+"""
+#=============================================
+"""
 A= {
     "francis" : 21,
     "shiny" : 20,
@@ -66,5 +69,27 @@ print(A)
 
 print(A.keys())
 
-print(A.values())
+print(A.values())"""
+
+#============================================= to get the frequency of the number  
+
+A = [1,1,1,2,2,2,2,3,3,4,4,4,5,5,]
+
+B = {}
+
+for i in A:
+
+    if (i  in B):
+
+        B[i] += 1
+    
+    else:
+        B[i] = 1
+
+print(B)
+
+#===============================================
+
+    
+
 
