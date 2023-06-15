@@ -1,5 +1,7 @@
 class Student:
-    def__init__(self):
+    
+    def __init__(self):
+
         self.name = "francis"
         self.roll_number = 12233
         self.age = 21
