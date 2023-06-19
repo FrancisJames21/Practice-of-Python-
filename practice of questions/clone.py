@@ -7,3 +7,7 @@ if __name__ == "__main__":
     print(owner.Colour)
 
     print(owner.Brand)
+
+owner.Run()
+
+owner.parked()
